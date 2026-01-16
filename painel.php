@@ -54,7 +54,7 @@ $especialidade = $_SESSION['especialidade'];
                             🏭 Área do Solicitante
                         </h3>
                         <div class="space-y-4">
-                            <a href="abrir_chamado.php" class="group relative w-full flex justify-center py-4 px-4 border border-transparent text-lg font-medium rounded-lg text-white bg-green-600 hover:bg-green-700 focus:outline-none shadow-md transition transform hover:-translate-y-1">
+                            <a href="chamados/abrir_chamado.php" class="group relative w-full flex justify-center py-4 px-4 border border-transparent text-lg font-medium rounded-lg text-white bg-green-600 hover:bg-green-700 focus:outline-none shadow-md transition transform hover:-translate-y-1">
                                 <span class="absolute left-0 inset-y-0 flex items-center pl-3">
                                     <svg class="h-6 w-6 text-green-200 group-hover:text-green-100" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
@@ -84,7 +84,7 @@ $especialidade = $_SESSION['especialidade'];
                         </h3>
                         
                         <div class="space-y-4">
-                            <a href="lista_chamados.php" class="w-full flex justify-center items-center py-4 px-4 border border-transparent text-lg font-medium rounded-lg text-white bg-blue-600 hover:bg-blue-700 shadow-md transition">
+                            <a href="chamados/lista_chamados.php" class="w-full flex justify-center items-center py-4 px-4 border border-transparent text-lg font-medium rounded-lg text-white bg-blue-600 hover:bg-blue-700 shadow-md transition">
                                 Visualizar Lista de Tarefas
                             </a>
                             
